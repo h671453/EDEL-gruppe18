@@ -44,6 +44,7 @@ p{
 }
 ul{
     text-align: center;
+    list-style: none;
 }
 li{
     text-align: center;
@@ -66,7 +67,24 @@ th {
 }
 .iframe{
     object-position: 50px 30px;
-}   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .footer{
     background-color: #26242b;
@@ -91,7 +109,7 @@ th {
 .footer-col h4::before{
     content: '';
     position: absolute;
-    left: 0;
+    left: 40;
     bottom: -10px;
     background-color: #e91e63;
     height: 2px;
