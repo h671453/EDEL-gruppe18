@@ -13,8 +13,8 @@ body{
     width: 100%;
 }
 header{
-    position: absolute;
-    margin-left: 700px;
+    background-color: #333;
+    align-self: center;
     font-size: 55px;
     font-family:'Courier New', Courier, monospace;
     color:teal;
