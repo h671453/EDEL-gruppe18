@@ -69,6 +69,16 @@ th {
     object-position: 50px 30px;
 }
 
+#usernameInput{
+    width: 300px;
+}
+#userEmailInput{
+    width: 300px;
+}
+#userPassword{
+    width: 300px;
+}
+
 *{
     margin: 0;
     padding: 0;
