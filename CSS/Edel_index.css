@@ -132,7 +132,7 @@ th {
 
 }
 /*Footer*/
-.footer-col ul li a{
+.footer-col ul li {
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
@@ -144,7 +144,7 @@ th {
 
 }
 /*Footer*/
-.footer-col ul li a:hover{
+.footer-col ul li :hover{
     color: #ffffff;
     padding-left: 10px;
 }
