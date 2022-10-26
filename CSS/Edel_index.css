@@ -105,6 +105,7 @@ th {
 .footer-col{
     width: 25%;
     padding: 0;
+    margin-left: 430px;
 }
 /*Footer*/
 .footer-col h4{
@@ -124,7 +125,7 @@ th {
     background-color: teal;
     height: 2px;
     box-sizing: border-box;
-    width: 65px;
+    width: 90px;
 }
 /*Footer*/
 .footer-col ul li:not(last-child){
