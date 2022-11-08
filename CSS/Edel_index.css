@@ -1,10 +1,9 @@
 a{
-    background-color:none;
+    background-color: #333;
 }
 button{
     font-family: 'Courier New', Courier, monospace;
     color:black;
-    background-color:none;
 }
 body{
     background-color:rgb(242, 254, 254);
