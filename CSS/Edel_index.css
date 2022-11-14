@@ -1,10 +1,6 @@
-a{
-    background-color:none;
-}
 button{
     font-family: 'Courier New', Courier, monospace;
     color:black;
-    background-color:none;
 }
 body{
     background-color:rgb(242, 254, 254);
@@ -17,7 +13,7 @@ header{
     align-self: center;
     font-size: 55px;
     font-family:'Courier New', Courier, monospace;
-    color:teal;
+    color: yellow;
     /*background-position-x: center;
     background-position-y: center;*/
 }
@@ -33,9 +29,6 @@ h1{
 }
 h2{
     text-align: center;
-    font-size: 30px;
-}
-h3{
     font-size: 30px;
 }
 p{
@@ -109,7 +102,7 @@ th {
     margin-left: 430px;
 }
 /*Footer*/
-.footer-col h4{
+.footer-col h3{
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
@@ -118,10 +111,9 @@ th {
     position: relative;
 }
 /*Footer*/
-.footer-col h4::before{
+.footer-col h3::before{
     content: '';
     position: absolute;
-    left: 40;
     bottom: -10px;
     background-color: teal;
     height: 2px;
